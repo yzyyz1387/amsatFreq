@@ -15,7 +15,9 @@ jobs:
         uses: actions/checkout@v4
 
       - name: 运行脚本
-        run: python ToJson.py
+        run: |
+          pip install markdown
+          python ToJson.py
 
       - name: 提交更改
         run: |
