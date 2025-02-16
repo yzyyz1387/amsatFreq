@@ -2,13 +2,19 @@ name: Build and Deploy
 
 on:
   push:
-    branches: [ main ]  # 当推送到 main 分支时触发
+    branches: [ main ]
   pull_request:
-    branches: [ main ]  # 当对 main 分支发起 PR 时触发
+    branches: [ main ]
+
+# 添加顶级权限配置
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # 使用最新的 Ubuntu 运行环境
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
