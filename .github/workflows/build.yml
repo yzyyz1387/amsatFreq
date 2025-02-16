@@ -52,18 +52,23 @@ jobs:
       uses: actions/checkout@v4
       with:
         ref: main
-        path: main-repo
-
+        path: main-repo  # 关键路径配置
 
     - name: 配置Node环境
       uses: actions/setup-node@v3
       with:
-        node-version: '18'
+        node-version: 18
         cache: 'npm'
+        cache-dependency-path: main-repo/package-lock.json  # 指定缓存路径
 
     - name: 安装依赖
-      working-directory: ./main-repo
-      run: npm ci
+      working-directory: ./main-repo  # 强制指定工作目录
+      run: |
+        if [ -f package-lock.json ]; then
+          npm ci
+        else
+          npm install
+        fi
 
     - name: 构建项目
       working-directory: ./main-repo
@@ -72,14 +77,12 @@ jobs:
     - name: 保留域名配置
       working-directory: ./main-repo
       run: |
-        mkdir -p dist  # 确保目录存在
+        mkdir -p dist
         echo "main.seeku.site" > dist/CNAME
-        ls -l dist/CNAME
 
     - name: 部署到Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./main-repo/dist
-        force_orphan: true
         destination_branch: gh-pages
