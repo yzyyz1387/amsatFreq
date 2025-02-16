@@ -228,21 +228,20 @@
 - BH7FBP [(添加IO-86)]
 
 ## 相关链接
-
 ### AMSAT
-
 - https://www.amsat.org/
 
 ### LoTW
-
 - https://lotw.arrl.org/lotwuser/default
 
 ### CRAC
-
 - https://www.crac.org.cn/
 
-## 友情链接
+### TEVEL.ICU
+- https://tevel.icu/
 
+
+## 友情链接
 ### 业余无线电资源合集
 - https://s.seeku.site/
 
