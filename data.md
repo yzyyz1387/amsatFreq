@@ -234,11 +234,12 @@
 ### LoTW
 - https://lotw.arrl.org/lotwuser/default
 
+### TEVEL.ICU
+- https://tevel.icu/
+
 ### CRAC
 - https://www.crac.org.cn/
 
-### TEVEL.ICU
-- https://tevel.icu/
 
 
 ## 友情链接
