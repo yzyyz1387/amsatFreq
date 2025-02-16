@@ -1,0 +1,766 @@
+{
+  "satellites": [
+    {
+      "name": "ISS-FM",
+      "frequencies": [
+        {
+          "stage": "AOS-1",
+          "uplink": "145.9875",
+          "downlink": "437.8100",
+          "tone": "67.0",
+          "shift": "-291.8225"
+        },
+        {
+          "stage": "AOS-2",
+          "uplink": "145.9875",
+          "downlink": "437.8050",
+          "tone": "67.0",
+          "shift": "-291.8175"
+        },
+        {
+          "stage": "ISS-FM",
+          "uplink": "145.9900",
+          "downlink": "437.8000",
+          "tone": "67.0",
+          "shift": "-291.8100"
+        },
+        {
+          "stage": "LOS-1",
+          "uplink": "145.9925",
+          "downlink": "437.7950",
+          "tone": "67.0",
+          "shift": "-291.8025"
+        },
+        {
+          "stage": "LOS-2",
+          "uplink": "145.9925",
+          "downlink": "437.7900",
+          "tone": "67.0",
+          "shift": "-291.7975"
+        }
+      ],
+      "status": "available",
+      "note": ""
+    },
+    {
+      "name": "ISS-SSTV",
+      "frequencies": [
+        {
+          "stage": "AOS",
+          "uplink": "145.8025",
+          "downlink": "",
+          "tone": "",
+          "shift": ""
+        },
+        {
+          "stage": "ISS-SSTV",
+          "uplink": "145.8000",
+          "downlink": "",
+          "tone": "",
+          "shift": ""
+        },
+        {
+          "stage": "LOS",
+          "uplink": "145.7975",
+          "downlink": "",
+          "tone": "",
+          "shift": ""
+        }
+      ],
+      "status": "available",
+      "note": ""
+    },
+    {
+      "name": "ISS-Digipeater",
+      "frequencies": [
+        {
+          "stage": "AOS",
+          "uplink": "145.8225",
+          "downlink": "145.8275",
+          "tone": "",
+          "shift": "-0.0050"
+        },
+        {
+          "stage": "ISS APRS",
+          "uplink": "145.8250",
+          "downlink": "145.8250",
+          "tone": "",
+          "shift": "0.0000"
+        },
+        {
+          "stage": "LOS",
+          "uplink": "145.8275",
+          "downlink": "145.8225",
+          "tone": "",
+          "shift": "0.0050"
+        }
+      ],
+      "status": "available",
+      "note": ""
+    },
+    {
+      "name": "SO-50",
+      "frequencies": [
+        {
+          "stage": "OPEN-1",
+          "uplink": "145.8475",
+          "downlink": "436.8050",
+          "tone": "74.4",
+          "shift": "-290.958"
+        },
+        {
+          "stage": "AOS-1",
+          "uplink": "145.8475",
+          "downlink": "436.8050",
+          "tone": "67.0",
+          "shift": "-290.958"
+        },
+        {
+          "stage": "AOS-2",
+          "uplink": "145.8475",
+          "downlink": "436.8000",
+          "tone": "67.0",
+          "shift": "-290.953"
+        },
+        {
+          "stage": "OPEN-2",
+          "uplink": "145.8500",
+          "downlink": "436.7950",
+          "tone": "74.4",
+          "shift": "-290.945"
+        },
+        {
+          "stage": "SO-50",
+          "uplink": "145.8500",
+          "downlink": "436.7950",
+          "tone": "67.0",
+          "shift": "-290.945"
+        },
+        {
+          "stage": "LOS-1",
+          "uplink": "145.8525",
+          "downlink": "436.7900",
+          "tone": "67.0",
+          "shift": "-290.938"
+        },
+        {
+          "stage": "LOS-2",
+          "uplink": "145.8525",
+          "downlink": "436.7850",
+          "tone": "67.0",
+          "shift": "-290.933"
+        }
+      ],
+      "status": "available",
+      "note": ""
+    },
+    {
+      "name": "Tevel 系列",
+      "frequencies": [
+        {
+          "stage": "AOS-1",
+          "uplink": "145.9675",
+          "downlink": "436.4100",
+          "tone": "",
+          "shift": "-290.4425"
+        },
+        {
+          "stage": "AOS-2",
+          "uplink": "145.9675",
+          "downlink": "436.4050",
+          "tone": "",
+          "shift": "-290.4375"
+        },
+        {
+          "stage": "Tevel 2-8",
+          "uplink": "145.9700",
+          "downlink": "436.4000",
+          "tone": "",
+          "shift": "-290.4300"
+        },
+        {
+          "stage": "LOS-1",
+          "uplink": "145.9725",
+          "downlink": "436.3950",
+          "tone": "",
+          "shift": "-290.4225"
+        },
+        {
+          "stage": "LOS-2",
+          "uplink": "145.9725",
+          "downlink": "436.3900",
+          "tone": "",
+          "shift": "-290.4175"
+        }
+      ],
+      "status": "unavailable",
+      "note": "https://tevel.icu"
+    },
+    {
+      "name": "LilacSat-2[紫丁香二号]",
+      "frequencies": [
+        {
+          "stage": "AOS-1",
+          "uplink": "144.3475",
+          "downlink": "437.2100",
+          "tone": "",
+          "shift": "-292.8625"
+        },
+        {
+          "stage": "AOS-2",
+          "uplink": "144.3475",
+          "downlink": "437.2050",
+          "tone": "",
+          "shift": "-292.8575"
+        },
+        {
+          "stage": "LilacSat-2",
+          "uplink": "144.3500",
+          "downlink": "437.2000",
+          "tone": "",
+          "shift": "-292.8500"
+        },
+        {
+          "stage": "LOS-1",
+          "uplink": "144.3525",
+          "downlink": "437.1950",
+          "tone": "",
+          "shift": "-292.8425"
+        },
+        {
+          "stage": "LOS-2",
+          "uplink": "144.3525",
+          "downlink": "437.1900",
+          "tone": "",
+          "shift": "-292.8375"
+        }
+      ],
+      "status": "unavailable",
+      "note": ""
+    },
+    {
+      "name": "PO-101[DIWATA 2]",
+      "frequencies": [
+        {
+          "stage": "AOS-1",
+          "uplink": "437.4900",
+          "downlink": "145.9025",
+          "tone": "141.3",
+          "shift": "291.5875"
+        },
+        {
+          "stage": "AOS-2",
+          "uplink": "437.4950",
+          "downlink": "145.9025",
+          "tone": "141.3",
+          "shift": "291.5925"
+        },
+        {
+          "stage": "PO-101",
+          "uplink": "437.5000",
+          "downlink": "145.9000",
+          "tone": "141.3",
+          "shift": "291.6000"
+        },
+        {
+          "stage": "LOS-1",
+          "uplink": "437.5050",
+          "downlink": "145.8975",
+          "tone": "141.3",
+          "shift": "291.6075"
+        },
+        {
+          "stage": "LOS-2",
+          "uplink": "437.5100",
+          "downlink": "145.8975",
+          "tone": "141.3",
+          "shift": "291.6125"
+        }
+      ],
+      "status": "available",
+      "note": ""
+    },
+    {
+      "name": "AO-27",
+      "frequencies": [
+        {
+          "stage": "AOS-1",
+          "uplink": "145.8475",
+          "downlink": "436.8050",
+          "tone": "无亚音",
+          "shift": "-290.9575"
+        },
+        {
+          "stage": "AOS-2",
+          "uplink": "145.8475",
+          "downlink": "436.8000",
+          "tone": "",
+          "shift": "-290.9525"
+        },
+        {
+          "stage": "AO-27",
+          "uplink": "145.8500",
+          "downlink": "436.7950",
+          "tone": "",
+          "shift": "-290.9450"
+        },
+        {
+          "stage": "LOS-1",
+          "uplink": "145.8525",
+          "downlink": "436.7900",
+          "tone": "",
+          "shift": "-290.9375"
+        },
+        {
+          "stage": "LOS-2",
+          "uplink": "145.8525",
+          "downlink": "436.7850",
+          "tone": "",
+          "shift": "-290.9325"
+        }
+      ],
+      "status": "unavailable",
+      "note": ""
+    },
+    {
+      "name": "AO-91",
+      "frequencies": [
+        {
+          "stage": "AOS-1",
+          "uplink": "435.2400",
+          "downlink": "145.9625",
+          "tone": "67.0",
+          "shift": "289.278"
+        },
+        {
+          "stage": "AOS-2",
+          "uplink": "435.2450",
+          "downlink": "145.9625",
+          "tone": "67.0",
+          "shift": "289.283"
+        },
+        {
+          "stage": "AO-91",
+          "uplink": "435.2500",
+          "downlink": "145.9600",
+          "tone": "67.0",
+          "shift": "289.290"
+        },
+        {
+          "stage": "LOS-1",
+          "uplink": "435.2550",
+          "downlink": "145.9575",
+          "tone": "67.0",
+          "shift": "289.298"
+        },
+        {
+          "stage": "LOS-2",
+          "uplink": "435.2600",
+          "downlink": "145.9575",
+          "tone": "67.0",
+          "shift": "289.303"
+        }
+      ],
+      "status": "available",
+      "note": ""
+    },
+    {
+      "name": "AO-92",
+      "frequencies": [
+        {
+          "stage": "AOS-1",
+          "uplink": "435.3400",
+          "downlink": "145.8825",
+          "tone": "67.0",
+          "shift": "289.458"
+        },
+        {
+          "stage": "AOS-2",
+          "uplink": "435.3450",
+          "downlink": "145.8825",
+          "tone": "67.0",
+          "shift": "289.463"
+        },
+        {
+          "stage": "AO-92",
+          "uplink": "435.3500",
+          "downlink": "145.8800",
+          "tone": "67.0",
+          "shift": "289.470"
+        },
+        {
+          "stage": "LOS-1",
+          "uplink": "435.3550",
+          "downlink": "145.8775",
+          "tone": "67.0",
+          "shift": "289.478"
+        },
+        {
+          "stage": "LOS-2",
+          "uplink": "435.3600",
+          "downlink": "145.8775",
+          "tone": "67.0",
+          "shift": "289.483"
+        }
+      ],
+      "status": "unavailable",
+      "note": ""
+    },
+    {
+      "name": "CSS-FM",
+      "frequencies": [
+        {
+          "stage": "AOS-1",
+          "uplink": "145.8725",
+          "downlink": "436.5200",
+          "tone": "待定",
+          "shift": "-290.6475"
+        },
+        {
+          "stage": "AOS-2",
+          "uplink": "145.8725",
+          "downlink": "436.5150",
+          "tone": "待定",
+          "shift": "-290.6425"
+        },
+        {
+          "stage": "CSS-FM",
+          "uplink": "145.8750",
+          "downlink": "436.5100",
+          "tone": "待定",
+          "shift": "-290.6350"
+        },
+        {
+          "stage": "LOS-1",
+          "uplink": "145.8775",
+          "downlink": "436.5050",
+          "tone": "待定",
+          "shift": "-290.6275"
+        },
+        {
+          "stage": "LOS-2",
+          "uplink": "145.8775",
+          "downlink": "436.5000",
+          "tone": "待定",
+          "shift": "-290.6225"
+        }
+      ],
+      "status": "never",
+      "note": ""
+    },
+    {
+      "name": "HADES-D",
+      "frequencies": [
+        {
+          "stage": "AOS-1",
+          "uplink": "145.8725",
+          "downlink": "436.6735",
+          "tone": "",
+          "shift": "-290.8010"
+        },
+        {
+          "stage": "AOS-2",
+          "uplink": "145.8725",
+          "downlink": "436.6685",
+          "tone": "",
+          "shift": "-290.7960"
+        },
+        {
+          "stage": "HADES-D",
+          "uplink": "145.8750",
+          "downlink": "436.6635",
+          "tone": "",
+          "shift": "-290.7885"
+        },
+        {
+          "stage": "LOS-1",
+          "uplink": "145.8775",
+          "downlink": "436.6585",
+          "tone": "",
+          "shift": "-290.7810"
+        },
+        {
+          "stage": "LOS-2",
+          "uplink": "145.8775",
+          "downlink": "436.6535",
+          "tone": "",
+          "shift": "-290.7760"
+        }
+      ],
+      "status": "unavailable",
+      "note": ""
+    },
+    {
+      "name": "UVSQ-SAT",
+      "frequencies": [
+        {
+          "stage": "AOS-1",
+          "uplink": "145.9025",
+          "downlink": "437.0300",
+          "tone": "67.0",
+          "shift": "-291.128"
+        },
+        {
+          "stage": "AOS-2",
+          "uplink": "145.9025",
+          "downlink": "437.0250",
+          "tone": "67.0",
+          "shift": "-291.123"
+        },
+        {
+          "stage": "UVSQ-SAT",
+          "uplink": "145.9050",
+          "downlink": "437.0200",
+          "tone": "67.0",
+          "shift": "-291.115"
+        },
+        {
+          "stage": "LOS-1",
+          "uplink": "145.9075",
+          "downlink": "437.0150",
+          "tone": "67.0",
+          "shift": "-291.108"
+        },
+        {
+          "stage": "LOS-2",
+          "uplink": "145.9075",
+          "downlink": "437.0100",
+          "tone": "67.0",
+          "shift": "-291.103"
+        }
+      ],
+      "status": "unavailable",
+      "note": ""
+    },
+    {
+      "name": "InspireSat-7",
+      "frequencies": [
+        {
+          "stage": "AOS-1",
+          "uplink": "145.9675",
+          "downlink": "437.4200",
+          "tone": "",
+          "shift": "-291.453"
+        },
+        {
+          "stage": "AOS-2",
+          "uplink": "145.9675",
+          "downlink": "437.4150",
+          "tone": "",
+          "shift": "-291.448"
+        },
+        {
+          "stage": "InspSat-7",
+          "uplink": "145.9700",
+          "downlink": "437.4100",
+          "tone": "",
+          "shift": "-291.440"
+        },
+        {
+          "stage": "LOS-1",
+          "uplink": "145.9725",
+          "downlink": "437.4050",
+          "tone": "",
+          "shift": "-291.433"
+        },
+        {
+          "stage": "LOS-2",
+          "uplink": "145.9725",
+          "downlink": "437.4000",
+          "tone": "",
+          "shift": "-291.428"
+        }
+      ],
+      "status": "unavailable",
+      "note": ""
+    },
+    {
+      "name": "CAS-5A[FO-118]",
+      "frequencies": [
+        {
+          "stage": "AOS-1",
+          "uplink": "145.9225",
+          "downlink": "435.6100",
+          "tone": "",
+          "shift": "-289.6875"
+        },
+        {
+          "stage": "AOS-2",
+          "uplink": "145.9225",
+          "downlink": "435.6050",
+          "tone": "",
+          "shift": "-289.6825"
+        },
+        {
+          "stage": "CAS-5A",
+          "uplink": "145.9250",
+          "downlink": "435.6000",
+          "tone": "",
+          "shift": "-289.6750"
+        },
+        {
+          "stage": "LOS-1",
+          "uplink": "145.9275",
+          "downlink": "435.5950",
+          "tone": "",
+          "shift": "-289.6675"
+        },
+        {
+          "stage": "LOS-2",
+          "uplink": "145.9275",
+          "downlink": "435.5900",
+          "tone": "",
+          "shift": "-289.6625"
+        }
+      ],
+      "status": "unavailable",
+      "note": ""
+    },
+    {
+      "name": "HADES-R",
+      "frequencies": [
+        {
+          "stage": "AOS-1",
+          "uplink": "145.9225",
+          "downlink": "436.8980",
+          "tone": "",
+          "shift": "-290.9775"
+        },
+        {
+          "stage": "AOS-2",
+          "uplink": "145.9225",
+          "downlink": "436.8930",
+          "tone": "",
+          "shift": "-290.9705"
+        },
+        {
+          "stage": "HADES-D",
+          "uplink": "145.9250",
+          "downlink": "436.8880",
+          "tone": "",
+          "shift": "-290.9630"
+        },
+        {
+          "stage": "LOS-1",
+          "uplink": "145.9275",
+          "downlink": "436.8830",
+          "tone": "",
+          "shift": "-290.9555"
+        },
+        {
+          "stage": "LOS-2",
+          "uplink": "145.8275",
+          "downlink": "436.8780",
+          "tone": "",
+          "shift": "-290.9505"
+        }
+      ],
+      "status": "available",
+      "note": ""
+    },
+    {
+      "name": "HADES-B[SO-120]",
+      "frequencies": [
+        {
+          "stage": "AOS-1",
+          "uplink": "145.9725",
+          "downlink": "436.8980",
+          "tone": "",
+          "shift": "-290.9255"
+        },
+        {
+          "stage": "AOS-2",
+          "uplink": "145.9725",
+          "downlink": "436.8930",
+          "tone": "",
+          "shift": "-290.9205"
+        },
+        {
+          "stage": "HADES-D",
+          "uplink": "145.9750",
+          "downlink": "436.8880",
+          "tone": "",
+          "shift": "-290.9130"
+        },
+        {
+          "stage": "LOS-1",
+          "uplink": "145.9775",
+          "downlink": "436.8830",
+          "tone": "",
+          "shift": "-290.9055"
+        },
+        {
+          "stage": "LOS-2",
+          "uplink": "145.9775",
+          "downlink": "436.8780",
+          "tone": "",
+          "shift": "-290.9005"
+        }
+      ],
+      "status": "available",
+      "note": ""
+    },
+    {
+      "name": "ASRTU-1/RS64S[AO-123]",
+      "frequencies": [
+        {
+          "stage": "AOS-1",
+          "uplink": "145.8475",
+          "downlink": "435.4100",
+          "tone": "67.0",
+          "shift": "-290.9255"
+        },
+        {
+          "stage": "AOS-2",
+          "uplink": "145.8475",
+          "downlink": "435.4050",
+          "tone": "67.0",
+          "shift": "-290.9205"
+        },
+        {
+          "stage": "HADES-D",
+          "uplink": "145.850",
+          "downlink": "435.4000",
+          "tone": "67.0",
+          "shift": "-290.9130"
+        },
+        {
+          "stage": "LOS-1",
+          "uplink": "145.8525",
+          "downlink": "435.3950",
+          "tone": "67.0",
+          "shift": "-290.9055"
+        },
+        {
+          "stage": "LOS-2",
+          "uplink": "145.8525",
+          "downlink": "435.3900",
+          "tone": "67.0",
+          "shift": "-290.9005"
+        }
+      ],
+      "status": "available",
+      "note": ""
+    }
+  ],
+  "additional_content": {
+    "信息": {
+      "改动日志": "- BI7MPS [(LilacSat-2、CAS-5A)]\n- BG7XWF [(UVSQ-SAT)]\n- BH7GUL,BI4IVM,BG7XWF [(Tevel2-7)]\n- BI4PYM [(修正多普勒、添加ISS天地上行、LEDSAT、InspireSat-7)]\n- BI1QGX [(HADES-D、AO-92)]\n- BG7QIW,BG5BTK [(AO-123(ASRTU-1)，删除AO-92、AO-27、INSPSAT7、紫丁香2号、Tevel、CAS-5A、HADES-D、UVSQ相关信息)]\n- BG7QIW [(HADES-R)]\n- BG7QIW [(HADES-B，添加常用卫星ID)]\n- BH7FBP [(添加IO-86)]"
+    },
+    "相关链接": {
+      "AMSAT": "- https://www.amsat.org/",
+      "LoTW": "- https://lotw.arrl.org/lotwuser/default",
+      "CRAC": "- https://www.crac.org.cn/"
+    },
+    "友情链接": {
+      "BD8CWG": "- https://yzyyz.top",
+      "uSDX-BI4KSR": "- https://s.seeku.site/ksr",
+      "QBG保险（QBG Care）": "- https://s.seeku.site/qbg.html"
+    },
+    "公告": {
+      "测试公告哦": "- 2025-02-01\n- https://seeku.site/\n- True\n-",
+      "网站全新改版，欢迎收藏访问！": "- 2025-02-16\n- https://seeku.site/\n- True"
+    }
+  },
+  "last_updated": "2025-02-16 00:28:08"
+}
