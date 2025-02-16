@@ -11,7 +11,7 @@
         <el-menu-item index="/">首页</el-menu-item>
         <el-menu-item index="/changelog">改动日志</el-menu-item>
         <el-menu-item index="/about">关于</el-menu-item>
-        
+
         <!-- 添加右侧按钮组 -->
         <div class="right-menu">
           <el-tooltip
@@ -20,7 +20,7 @@
             :show-after="300"
           >
             <div class="menu-icon-btn" @click="toggleDarkMode">
-              <el-icon v-if="isDarkMode"><Moon /></el-icon>
+              <el-icon v-if="!isDarkMode"><Moon /></el-icon>
               <el-icon v-else><Sunny /></el-icon>
             </div>
           </el-tooltip>
@@ -30,7 +30,7 @@
             placement="bottom"
             :show-after="300"
           >
-            <a 
+            <a
               href="https://github.com/yzyyz1387/amsatFreq"
               target="_blank"
               class="menu-icon-btn github-icon"
@@ -42,7 +42,7 @@
           </el-tooltip>
         </div>
       </el-menu>
-      
+
       <div class="main-content">
         <router-view />
       </div>
@@ -276,4 +276,4 @@ body {
 .dark-theme .github-icon:hover .github-svg {
   fill: #409EFF;
 }
-</style> 
+</style>

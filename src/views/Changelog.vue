@@ -4,7 +4,9 @@
       <h1>改动日志</h1>
       <p class="subtitle">感谢以下贡献者的支持</p>
     </div>
-
+    <div class="version-code">
+      当前版本：{{ version }}
+    </div>
     <div class="content-section">
       <div class="changelog-list">
         <div v-for="(log, index) in parsedLogs" :key="index" class="log-item">
@@ -27,7 +29,8 @@ export default {
   name: 'ChangelogView',
   data() {
     return {
-      logs: ''
+      logs: '',
+      version: 'null'
     }
   },
   computed: {
@@ -46,6 +49,8 @@ export default {
     try {
       const response = await axios.get('/satellite_data.json')
       this.logs = response.data.additional_content?.信息?.改动日志 || ''
+      let version = response.data.additional_content?.版本?.版本号 || 'null'
+      this.version = version.startsWith('- ') ? version.substring(2) : version
     } catch (error) {
       console.error('加载改动日志失败:', error)
     }
@@ -68,6 +73,14 @@ export default {
   border-radius: 16px;
   color: white;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.version-code {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #1a73e8;
 }
 
 .content-section {
@@ -122,4 +135,4 @@ export default {
     font-size: 14px;
   }
 }
-</style> 
+</style>
