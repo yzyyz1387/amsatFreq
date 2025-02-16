@@ -54,12 +54,26 @@ jobs:
         ref: main
         path: main-repo
 
+    # 新增关键构建步骤
+    - name: 配置Node环境
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+        cache: 'npm'
+
+    - name: 安装依赖
+      working-directory: ./main-repo
+      run: npm ci
+
+    - name: 构建项目
+      working-directory: ./main-repo
+      run: npm run build
 
     - name: 保留域名配置
       working-directory: ./main-repo
       run: |
-        echo "main.seeku.site" > ./dist/CNAME
-        # 验证文件生成
+        mkdir -p dist  # 确保目录存在
+        echo "main.seeku.site" > dist/CNAME
         ls -l dist/CNAME
 
     - name: 部署到Pages
