@@ -17,19 +17,18 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '18'  # 使用 Node.js 18.x
-        cache: 'npm'  # 缓存 npm 依赖
+        node-version: '18'
+        cache: 'npm'
 
     - name: Install dependencies
-      run: npm ci  # 使用 ci 而不是 install，这样可以确保使用 package-lock.json 中的精确版本
+      run: npm ci
 
     - name: Build
       run: npm run build
 
-    - name: Commit dist
-      run: |
-        git config --global user.name 'GitHub Actions'
-        git config --global user.email 'actions@github.com'
-        git add dist -f
-        git commit -m "chore: update dist" || echo "No changes to commit"
-        git push origin main
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./dist
+        force_orphan: true
