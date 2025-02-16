@@ -33,7 +33,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <p>© {{ copyrightYear }} DB8CWG. All rights reserved.</p>
+      <p>© {{ copyrightYear }} yzyyz. All rights reserved.</p>
     </div>
   </footer>
 </template>
