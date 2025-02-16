@@ -26,9 +26,9 @@ jobs:
     - name: Build
       run: npm run build
 
-    # 可选：保存构建产物
+    # 使用最新的 v4 版本
     - name: Upload build artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: dist
         path: dist/ 
