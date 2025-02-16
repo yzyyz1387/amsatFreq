@@ -53,7 +53,7 @@ jobs:
       with:
         ref: main
         path: main-repo
-.
+
 
     - name: 保留域名配置
       working-directory: ./main-repo
