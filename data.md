@@ -243,12 +243,16 @@
 
 ## 友情链接
 
-### BD8CWG
+### 业余无线电资源合集
+- https://s.seeku.site/
 
+### HAM梗图-HamGam
+- https://g.seeku.site/
+
+### BD8CWG
 - https://yzyyz.top
 
 ### uSDX-BI4KSR
-
 - https://s.seeku.site/ksr
 
 ### QBG保险（QBG Care）
