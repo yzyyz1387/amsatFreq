@@ -47,22 +47,22 @@
       "frequencies": [
         {
           "stage": "AOS",
-          "uplink": "145.8025",
-          "downlink": "",
+          "uplink": "",
+          "downlink": "145.8025",
           "tone": "",
           "shift": ""
         },
         {
           "stage": "ISS-SSTV",
-          "uplink": "145.8000",
-          "downlink": "",
+          "uplink": "",
+          "downlink": "145.8000",
           "tone": "",
           "shift": ""
         },
         {
           "stage": "LOS",
-          "uplink": "145.7975",
-          "downlink": "",
+          "uplink": "",
+          "downlink": "145.7975",
           "tone": "",
           "shift": ""
         }
@@ -768,5 +768,5 @@
       "版本号": "- 业余FM卫星频率对照表（第二十版）.xlsx"
     }
   },
-  "last_updated": "2025-02-19 03:08:03"
+  "last_updated": "2025-03-21 07:14:13"
 }
