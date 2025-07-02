@@ -34,6 +34,7 @@
     </div>
     <div class="footer-bottom">
       <p>© {{ copyrightYear }} yzyyz. All rights reserved.</p>
+      <a data-v-788a33a7="" href="http://beian.miit.gov.cn/" target="_blank">陕ICP备2020016014号-2</a>
     </div>
   </footer>
 </template>
