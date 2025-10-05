@@ -11,6 +11,7 @@
         <el-menu-item index="/">首页</el-menu-item>
         <el-menu-item index="/changelog">改动日志</el-menu-item>
         <el-menu-item index="/about">关于</el-menu-item>
+        <el-menu-item index="/donate">支持我们</el-menu-item>
 
         <!-- 添加右侧按钮组 -->
         <div class="right-menu">
